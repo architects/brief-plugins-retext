@@ -1,0 +1,50 @@
+{
+  "name": "brief-plugins-retext",
+  "version": "3.1.0",
+  "description": "A plugin for brief which provides keyword analysis on the documents in the briefcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/architects/brief-plugins-retext.git"
+  },
+  "keywords": [
+    "brief",
+    "markdown",
+    "retext",
+    "language analysis",
+    "keyword detection"
+  ],
+  "author": "Jonathan Soeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/architects/brief-plugins-retext/issues"
+  },
+  "homepage": "https://github.com/architects/brief-plugins-retext#readme",
+  "dependencies": {
+    "glob-all": "latest",
+    "i": "latest",
+    "nlcst-to-string": "^1.0.0",
+    "retext": "latest",
+    "retext-english": "latest",
+    "retext-keywords": "latest",
+    "underscore": "latest",
+    "underscore.string": "latest"
+  },
+  "devDependencies": {
+    "babel": "latest",
+    "babel-runtime": "latest",
+    "coffee-script": "^1.10.0",
+    "colors": "latest",
+    "mocha": "^2.3.0",
+    "mocha-babel": "^3.0.0",
+    "should": "^7.1.0",
+    "brief-node": "^3.1.0",
+    "brief-plugins-blueprint": "latest"
+  },
+  "babel": {
+    "sourceMaps": "inline"
+  }
+}
