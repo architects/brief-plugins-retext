@@ -1,6 +1,6 @@
 {
   "name": "brief-plugins-retext",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "A plugin for brief which provides keyword analysis on the documents in the briefcase",
   "main": "index.js",
   "scripts": {
@@ -29,19 +29,22 @@
     "retext": "latest",
     "retext-english": "latest",
     "retext-keywords": "latest",
+    "retext-pos": "latest",
     "underscore": "latest",
     "underscore.string": "latest",
     "es6-promise": "latest"
   },
   "devDependencies": {
-    "babel": "^5.1.13",
-    "babel-runtime": "^5.8.20",
     "coffee-script": "^1.10.0",
     "colors": "latest",
     "mocha": "^2.3.0",
     "mocha-babel": "^3.0.0",
     "should": "^7.1.0",
-    "brief-node": "^3.2.2"
+    "brief-node": "^3.2.2",
+    "babel": "https://registry.npmjs.org/babel/-/babel-5.8.29.tgz",
+    "babel-core": "https://registry.npmjs.org/babel-core/-/babel-core-5.8.29.tgz",
+    "babel-loader": "https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz",
+    "babel-runtime": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-5.8.29.tgz"
   },
   "babel": {
     "sourceMaps": "inline"
