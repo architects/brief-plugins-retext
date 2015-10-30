@@ -11,9 +11,7 @@ run_specs: compile
 spec:
 	@./node_modules/mocha/bin/mocha \
 		--require should \
-		--require 'babel/register' \
 		--require './test/test-helper' \
-		--compilers js:mocha-babel \
 		--compilers coffee:coffee-script/register \
 		--reporter spec \
 		test/**/*-spec.*

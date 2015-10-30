@@ -25,24 +25,23 @@
   "homepage": "https://github.com/architects/brief-plugins-retext#readme",
   "dependencies": {
     "glob-all": "latest",
-    "i": "latest",
     "nlcst-to-string": "^1.0.0",
     "retext": "latest",
     "retext-english": "latest",
     "retext-keywords": "latest",
     "underscore": "latest",
-    "underscore.string": "latest"
+    "underscore.string": "latest",
+    "es6-promise": "latest"
   },
   "devDependencies": {
-    "babel": "latest",
-    "babel-runtime": "latest",
+    "babel": "^5.1.13",
+    "babel-runtime": "^5.8.20",
     "coffee-script": "^1.10.0",
     "colors": "latest",
     "mocha": "^2.3.0",
     "mocha-babel": "^3.0.0",
     "should": "^7.1.0",
-    "brief-node": "^3.1.0",
-    "brief-plugins-blueprint": "latest"
+    "brief-node": "^3.2.2"
   },
   "babel": {
     "sourceMaps": "inline"

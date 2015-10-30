@@ -8,11 +8,7 @@ export default function plugin(brief, options){
   brief.mixin(ModelExtension, 'model') 
 
   function modifier(briefcase, options){
-    Object.defineProperty(briefcase, 'keywords', {
-      get: function(){
-        return brief.util.flatten(briefcase.getAllModels().map(model => model.keywords()))
-      }
-    })
+
   }
 
   Object.defineProperty(modifier, 'groupNames', {
